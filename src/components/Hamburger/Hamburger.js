@@ -2,6 +2,8 @@ import React from "react";
 import "./Hamburger.scss";
 
 const Hamburger = () => {
+  const toggleMenu = () => {};
+
   return (
     <div className="hamburger_menu">
       <div className="bar topbar"></div>

@@ -1,5 +1,7 @@
+@import "../../variables.scss";
+
 .Header {
-  background: grey;
+  background: transparent;
   display: flex;
   justify-content: space-between;
   font-size: 2.5vw;
@@ -8,5 +10,4 @@
 
 .Header_logo {
   flex-basis: 8%;
-  fill: white;
 }

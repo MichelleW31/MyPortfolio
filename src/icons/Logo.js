@@ -1,10 +1,10 @@
 import React from "react";
 
-const Logo = (props) => {
+const Logo = (props, { fill }) => {
   return (
     <div {...props}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.5 162.3">
-        <g id="Layer_5">
+        <g id="Layer_5" fill={fill}>
           <polygon points="27.3,0 27.3,139 0,124.4 0,0 	" />
           <polygon points="76.5,46.7 51.5,46.7 32.2,29.2 32.2,7.9 	" />
           <polygon points="119.2,-0.5 78.7,39.4 68.1,30.2 97.9,-0.5 	" />
