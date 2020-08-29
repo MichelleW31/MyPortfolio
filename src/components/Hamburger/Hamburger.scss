@@ -1,0 +1,34 @@
+@import "../../_variables.scss";
+
+.hamburger_menu {
+  display: flex;
+  flex-basis: 10%;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+
+  .bar {
+    background-color: $black;
+    width: 100%;
+    height: 20%;
+    border-radius: 6px;
+    position: absolute;
+  }
+
+  .topbar {
+    transition: transform 0.5s, right 0.5s;
+    transform-origin: right;
+  }
+
+  .middlebar {
+    top: 40%;
+    right: 0;
+    transition: transform 0.5s, right 0.5s;
+  }
+
+  .bottombar {
+    bottom: 0;
+    transition: transform 0.5s, right 0.5s;
+    transform-origin: right;
+  }
+}
