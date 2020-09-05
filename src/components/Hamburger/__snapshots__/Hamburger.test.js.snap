@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hamburger Component matches the snapshot 1`] = `
+<div
+  className="hamburger_menu"
+  onClick={[Function]}
+>
+  <div
+    className="bar topnavbar transition"
+  />
+  <div
+    className="bar middlenavbar transition"
+  />
+  <div
+    className="bar bottomnavbar transition"
+  />
+</div>
+`;

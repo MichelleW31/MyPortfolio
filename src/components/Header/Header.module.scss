@@ -1,13 +1,28 @@
 @import "../../variables.scss";
 
 .Header {
-  background: transparent;
+  background: blue;
   display: flex;
   justify-content: space-between;
   font-size: 2.5vw;
   padding: 1em 2em;
+  position: relative;
 }
 
 .Header_logo {
   flex-basis: 8%;
+}
+
+.MobileMenu {
+  background: pink;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  transition: width 1s;
+  width: 0;
+}
+
+.Visible {
+  width: 100px;
 }

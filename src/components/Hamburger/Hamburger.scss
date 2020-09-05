@@ -8,27 +8,33 @@
   position: relative;
 
   .bar {
-    background-color: $black;
-    width: 100%;
-    height: 20%;
+    background: $black;
     border-radius: 6px;
-    position: absolute;
+    height: 20%;
+    width: 90%;
   }
 
-  .topbar {
+  .transition {
     transition: transform 0.5s, right 0.5s;
     transform-origin: right;
   }
 
-  .middlebar {
-    top: 40%;
+  .topclick {
+    transform: rotate(-39deg);
+  }
+
+  div.middleclick {
+    right: -185px;
+  }
+
+  .bottomclick {
+    transform: rotate(39deg);
+  }
+
+  .middlenavbar {
+    top: 0;
     right: 0;
+    position: relative;
     transition: transform 0.5s, right 0.5s;
-  }
-
-  .bottombar {
-    bottom: 0;
-    transition: transform 0.5s, right 0.5s;
-    transform-origin: right;
   }
 }
