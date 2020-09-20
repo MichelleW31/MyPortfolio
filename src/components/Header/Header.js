@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./Header.module.scss";
 import Logo from "../../icons/Logo";
 import Hamburger from "../Hamburger/Hamburger";
+import Menu from "../Menu/Menu";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -22,7 +23,7 @@ const Header = () => {
             : styles.MobileMenu
         }
       >
-        This is the mobile menu
+        <Menu />
       </div>
     </header>
   );

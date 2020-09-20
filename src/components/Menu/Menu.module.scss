@@ -1,0 +1,11 @@
+.MenuItems {
+  list-style: none;
+
+  .MenuItem {
+    display: flex;
+
+    svg {
+      flex-basis: 7%;
+    }
+  }
+}
