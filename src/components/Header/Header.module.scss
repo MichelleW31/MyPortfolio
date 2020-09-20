@@ -1,12 +1,12 @@
 @import "../../variables.scss";
 
 .Header {
-  background: blue;
+  background: transparent;
   display: flex;
   justify-content: space-between;
-  font-size: 2.5vw;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
   position: relative;
+  width: 100%;
 }
 
 .Header_logo {
@@ -14,15 +14,19 @@
 }
 
 .MobileMenu {
-  background: pink;
-  height: auto;
+  background: $mobilemenu;
+  color: $white;
+  height: 0;
   position: absolute;
   right: 0;
-  top: 100%;
-  transition: width 1s;
+  top: 4rem;
+  transition: height 0.8s, width 0.8s, transform 1s;
   width: 0;
 }
 
 .Visible {
-  width: 100px;
+  -webkit-transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0);
+  height: 100%;
+  width: 55%;
 }
